@@ -8,3 +8,10 @@ while i<len(a):
         b.append(a[i])
     i+=1
 print(b)
+
+
+
+# a="python"
+# print(a[::-1])
+
+
