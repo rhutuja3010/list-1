@@ -54,3 +54,10 @@ while i<len(question_list):
 print("congragulations..you are participated in kbc game")           
 print("win",sum)
 print("thank you")
+
+
+
+
+
+
+
