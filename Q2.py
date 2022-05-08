@@ -2,7 +2,7 @@ question_list = ["1).How many continents are there?","2).What is the capital of 
 options_list = [["A.Four", "B.Nine", "C.Seven", "D.Eight"],["A.Chandigarh", "B.Bhopal", "C.Chennai", "D.Delhi"],["A.Software Engineering", "B.Counseling", "C.Tourism", "D.Agriculture"]]
 solution_list = [3,4,1]
 answer_list=[["3.seven ","4.Eight"],["3.chennai","4.delhi"],["1.software engineering","2.counseling"]]
-print("kaun banega codepati(KBC")
+print("kaun banega codepati(KBC)")
 i=0
 sum=0
 count=0
@@ -19,7 +19,7 @@ while i<len(question_list):
         print("accept")
         if count<1:
             print(answer_list[b])
-            num1=int(input("enter the answer :"))
+            num1=int(input("enter the answer"))
             if num1==solution_list[i]:
                 print("correct answer")
                 sum+=100
@@ -41,7 +41,7 @@ while i<len(question_list):
                 print("win",sum)
                 break
     else:
-        num3=int(input("enter the answer :"))
+        num3=int(input("enter the answer"))
         if num3==solution_list[i]:
             print("correct your answer")
             sum+=100
@@ -49,13 +49,13 @@ while i<len(question_list):
         else:
             print("wrong answer")
             print("win",sum)
+            print("congragulations..you are participated in kbc game")           
+            print("win",sum)
+            print("thank you")
+            break
     i+=1
 
-    print("congragulations..you are participated in kbc game")           
-    print("win",sum)
-    print("thank you")
-
-
+    
 
 
 
